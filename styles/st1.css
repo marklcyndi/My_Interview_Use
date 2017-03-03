@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+  
 
 
 header {background-color:#CCC;}
@@ -7,16 +7,17 @@ header {background-color:#CCC;}
 		padding:0px;
 		margin:0px;
 		list-style-type:none;
-		}
+		list-style-type:none;
+		list-style-image:url(images/love.png);}
 	#nav ul li {
 		float:right;
-		padding:15px;
+		padding:18px;
 	
 		}
 	
 	#nav {height:50px;
 	weight:100px;}
-
+	
 /* CSS Document */
 
 a:link {text-decoration:none;color:#000}
@@ -36,8 +37,8 @@ a:link {text-decoration:none;color:#000}
 		
 		iframe {padding:0px;
 		margin:0px 0px 0px 0px;
-			display:block;
-			 border:#FFF}
+		display:block;
+		border:#FFF}
 
 	
 
@@ -51,10 +52,15 @@ h3 {color:orange;text-transform:uppercase}
 	#request{
 		width:500px;
 		height:250px;
-		margin:280px 0px 0px 700px;
-		border:solid #CCC 3px;
-		float:none;
-		padding:15px;}
+		margin:18% 0px 0px 29%;
+		border: groove #000 3px;
+		float:left;
+		padding:50px;}
 		
 	
- 	
+ 		article {margin:auto;
+		width:auto;
+	padding:0px;
+	display:block; 
+	background-image: url("images/sky.jpg"); 
+	}
