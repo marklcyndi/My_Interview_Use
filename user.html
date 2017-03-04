@@ -9,9 +9,44 @@
     <link rel="icon" href="images/love.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles/st1.css">
- 
-    
-    
+    <style>
+	article { 
+	width:1300px;
+	height:900px;
+	float:left;
+	display:block;
+	border:#000  dashed;
+	}
+	#User{width:900px;
+	height:800px;
+	float:none;
+	margin:90px 0px 0px 150px;
+	background-image:url(images/bg.gif)}
+	
+	aside {
+	 width:300px;
+	 height:900px;
+	 display:block;
+	 float:left;
+	 background-image:url(images/flower.jpg);}
+	 aside a:hover{
+		 background-color:#333;
+		 color:#0FF;}
+	  #as{
+		  width:250px;
+		  height:400px;
+		  float:none;
+		  margin:20px 0px 0px 25px;}
+	
+    .bu{
+	background-position: -30px 50%;
+	float: left;
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 20px;
+	
+	}
+    </style>
     
     </head>
     
@@ -19,8 +54,7 @@
    			<header>
     
             <div id="nav">
-                <ul>
-                    <li><a href="home.html#home1"><b>介紹</b></a></li>
+                <ul><li><a href="home.html#home1"><b>介紹</b></a></li>
                     <li><a href="login.html#log"><b>LOGIN</b></a></li>
                     <li><a href="user.html"><b>會員中心</b></a></li>
                        <li><a href="conect.html"><b>客服部門</b></a></li>
@@ -29,7 +63,55 @@
                     
                 </ul>
             </div><hr>
-    </header>
+            
+    	</header>
+    
+    
+    	<aside>
+        
+        
+        <div id="as">
+        <br>
+        <br>
+        <br>
+        	<a class="bu" href=""><b>最新活動</b></a><br><br>
+        	<a class="bu" href=""><b>會員回饋</b></a><br><br>
+        	 <a class="bu" href=""><b>下次再買清單</b></a><br><br>
+        	<a class="bu" href="http://24h.pchome.com.tw/store/DBAY12"><b>食物分類</b></a><br><br>
+            <a class="bu" href="" ><b>衣服分類</b></a><br><br>
+             <a class="bu" href=""><b>住宿分類</b></a><br><br>
+              <a class="bu" href=""><b>行動分類</b></a><br><br>
+              <a class="bu" href="javascript:window.open('https://www.google.com.tw/maps/search/%E7%BE%8E%E9%A3%9F/@25.049843,121.5166979,13.5z?hl=zh-TW',
+              '_blank','top=100,left=100,width=600,height=300');"><b>大台北找美食</b></a><br><br>
+              <a class="bu" href="javascript:window.print() ;"><b>列印此頁</b></a><br><br>
+              
+              
+              
+              <div>
+              	<input type="button" value="..Contect Us.." onclick="mailto:marklcyndi@gmail.com() ;"  >
+              </div>
+              
+    	</div>
+    	</aside>
+    
+    
+    
+    <article>
+    <div id = "User">
+    		<b><p>>更改會員資料<</p></b>
+            <p>姓名:</p><input type="text" placeholder="Name:王小明">
+            <p>更改大頭貼:</p><input type="file">
+            <input type="照片顯示區">
+            <p>地址:</p><input type="text"  size="35" placeholder="大台北內湖區勇猛路一段XXX號?樓">
+            <p>E-mail:</p><input type="text"><input type="button" value="MAIL認證"placeholder="12345@gmail.com">
+            <p>手機認證:</p><input type="text" placeholder="0800-060-000"><input type="button" value="手機認證">
+            <p>密碼:</p><input type="password" placeholder="請包涵數字符號及英文">
+            <p>確認密碼:</p><input type="password">
+    </div>
+    </article>
+    
+    		
+    
     
     </body>
 </html>

@@ -16,7 +16,13 @@
 	padding:opx;
 	margin:auto; 
 	}
-	
+	article {width:1500px;
+	height:4000px;
+	margin:opx;
+	padding:0px;
+	display:block; 
+	background-image: url("images/bg.gif"); 
+	}
 	.left_video{
 	margin-top:880px;
 	padding:0px;
@@ -29,13 +35,7 @@
 	.down_title {
 	margin-left:350px;}
 	
-	article {width:900px;
-	height:4000px;
-	margin:auto;
-	padding:0px;
-	display:block; 
-	background-image: url("images/bg.gif"); 
-	} <!--設定區塊block-->
+	 <!--設定區塊block-->
 	
 	<!--設定容器大小-->
 	.img1 {float:right;
@@ -57,7 +57,9 @@
 	{
 		width:600px;
 		height:250px;
-		margin-left:100px;}
+		margin:25px 0px 0px 25%;
+		float:left;
+		position:absolute;}
 
 .imgC {
 		margin-left:200px;}
@@ -74,7 +76,7 @@
 <script>	
 			
 						
-			var imag = Array("images/1.png","images/2.jpg","images/3.jpg","images/4.png");
+			var imag = Array("images/2.jpg","images/3.jpg","images/4.png","images/1.png");
 						var imag_len = imag.length ; 
 						var i = 0 ; 
 
@@ -132,19 +134,19 @@
 				
 				function PIAover1(){
 							document.getElementById("picA").src = "images/1.png"; //滑鼠移過來指向圖1
-							
+							document.getElementById("picA1").src  = "images/cir2.png";
 					}
 					function PIAover2(){
 							document.getElementById("picA").src = "images/2.jpg"; //滑鼠移過來指向圖
-							
+							document.getElementById("picA2").src  = "images/cir2.png";
 					}
 					function PIAover3(){
 							document.getElementById("picA").src = "images/3.jpg"; //滑鼠移過來指向圖3
-							
+							document.getElementById("picA3").src  = "images/cir2.png";
 					}
 					function PIAover4(){
 							document.getElementById("picA").src = "images/4.png"; //滑鼠移過來指向圖4
-							
+							document.getElementById("picA4").src  = "images/cir2.png";
 					}
 					
 				
@@ -204,14 +206,14 @@
 <hr>
 <div class = "imgA">
 
-        <div  class="imgB">
-       <img alt="" id="picA" onMouseOver="" onMouseOut="" onclick=";"  src="images/1.png" width="600" height="300"><br><br>
+    <div  class="imgB">
+     <img alt="" h id="picA" onMouseOver="" onMouseOut="" onclick=""  src="images/1.png" width="600" height="300"><br><br>
         
                     <div id="IMGC" class ="imgC" >
-                    <img alt="" id="picA1" onMouseOver="" onMouseOut=""  src="images/cir.png">
-                    <img alt="" id="picA2" onMouseOver="" onMouseOut=""  src="images/cir.png">
-                    <img alt="" id="picA3" onMouseOver="" onMouseOut=""  src="images/cir.png">
-                    <img alt="" id="picA4" onMouseOver="" onMouseOut=""  src="images/cir.png">
+                    <img  src="images/cir.png" alt="" width="25" height="25" id="picA1" onMouseOver="" onMouseOut="">
+                    <img alt="" id="picA2" onMouseOver="" onMouseOut=""  src="images/cir.png"  width="25" height="25">
+                    <img alt="" id="picA3" onMouseOver="" onMouseOut=""  src="images/cir.png"  width="25" height="25">
+                    <img alt="" id="picA4" onMouseOver="" onMouseOut=""  src="images/cir.png"  width="25" height="25">
                     </div>
         
         
